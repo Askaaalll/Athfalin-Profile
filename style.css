@@ -1,0 +1,444 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #061e29;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  z-index: 9999;
+  top: 0;
+  position: sticky;
+}
+
+header .ulnavbar li {
+  list-style-type: none;
+}
+
+header .ulnavbar li a {
+  text-decoration: none;
+}
+
+.content2,
+.content3,
+.content4 {
+  width: 100%;
+  height: 450px;
+}
+
+.allnav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profilenavbar {
+  display: flex;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid black;
+}
+
+.navbar {
+  display: flex;
+}
+
+ul.ulnavbar li a {
+  color: white;
+  font-weight: 900;
+}
+
+ul.ulnavbar li a:hover {
+  color: black;
+  font-weight: 900;
+  background-color: lightblue;
+  border: 0px solid;
+  transition: all 0.1s ease-in-out;
+}
+
+.ulnavbar {
+  display: flex;
+  gap: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.content1,
+.profileutama,
+.imathfalin {
+  display: flex;
+}
+
+.content2,
+.content3,
+.frontend,
+.content4,
+aside,
+.social-media,
+.aboutme1,
+.aboutme2,
+.myexperience {
+  display: flex;
+}
+
+.content1 {
+  align-items: center;
+  justify-content: center;
+  padding: 7rem;
+  text-align: center;
+  gap: 40px;
+}
+
+.content1 .imathfalin {
+  flex-direction: column;
+}
+
+.imathfalin p,
+.imathfalin h1,
+.imathfalin h2 {
+  margin: 0;
+  line-height: 1.5;
+  color: lightskyblue;
+  font-weight: 900;
+}
+
+.content1 .profilhalutama img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow:
+    0 0 10px #ffffff,
+    0 0 25px #ffffff,
+    0 0 45px rgba(255, 255, 255, 0.6),
+    inset 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+article.content2 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme1 {
+  flex-direction: column;
+  line-height: 0;
+  text-align: center;
+  padding: 20px 20px;
+  color: lightskyblue;
+}
+
+.aboutme2 {
+  text-align: justify;
+  width: 600px;
+  border: 5px solid black;
+  box-shadow:
+    0 0 10px #ffffff,
+    0 0 25px #ffffff,
+    0 0 45px rgba(255, 255, 255, 0.6),
+    inset 0 0 15px rgba(255, 255, 255, 0.4);
+  padding: 15px 15px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+article.content3 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  padding-top: 150px;
+  margin-bottom: 200px;
+}
+
+.myexperience {
+  flex-direction: column;
+  line-height: 0;
+  text-align: center;
+  padding: 20px 20px;
+  color: lightskyblue;
+}
+
+.frontend {
+  text-align: center;
+  width: 600px;
+  border: 5px solid black;
+  padding: 15px 15px;
+  border-radius: 40px;
+  flex-direction: column;
+  box-shadow:
+    0 0 10px #ffffff,
+    0 0 25px #ffffff,
+    0 0 45px rgba(255, 255, 255, 0.6),
+    inset 0 0 15px rgba(255, 255, 255, 0.4);
+  background-color: white;
+}
+
+.content4 {
+  margin-top: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contactme {
+  line-height: 15px;
+  color: lightskyblue;
+}
+
+button {
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  box-shadow:
+    0 0 10px #ffffff,
+    0 0 25px #ffffff,
+    0 0 45px rgba(255, 255, 255, 0.6),
+    inset 0 0 15px rgba(255, 255, 255, 0.4);
+}
+
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+  background-image: url();
+}
+main aside .social-media {
+  height: 100%;
+  display: flex;
+}
+main aside .social-media ul {
+  padding: 1.5rem 1rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin: auto;
+  background-color: lightblue;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  box-shadow:
+    0 0 10px #87cefa,
+    0 0 25px rgba(135, 206, 250, 0.8),
+    0 0 50px rgba(135, 206, 250, 0.5),
+    inset 0 0 15px rgba(135, 206, 250, 0.4);
+}
+main aside .social-media li {
+  list-style-type: none;
+}
+
+main aside .social-media li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+main aside .social-media li a:hover {
+  color: #89b0d9;
+}
+
+.bio-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.side-profile-pic {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.bio-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+  padding-top: 8px;
+}
+
+li.bio-item a div span {
+  text-decoration: none;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+
+  text-align: center;
+  font-weight: bold;
+}
+
+.htmlorange {
+  color: orange;
+  font-weight: 900;
+}
+.cssblue {
+  color: blue;
+  font-weight: 900;
+}
+.javascriptyellow {
+  color: yellow;
+  font-weight: 900;
+}
+
+.experienced {
+  color: greenyellow;
+  font-weight: 900;
+}
+
+.aboutme1,
+.myexperience,
+.contactme,
+.imathfalin {
+  font-size: x-large;
+}
+
+@media screen and (max-width: 768px) {
+  header.allnav {
+    flex-direction: column;
+  }
+
+  header.allnav .navbar ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+  }
+
+  main {
+    padding: 1rem 3rem;
+  }
+
+  main .content1,
+  .content2,
+  .content3,
+  .content4 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .content1 .profilhalutama img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .frontend,
+  .aboutme2 {
+    width: 400;
+  }
+
+  main aside .social-media ul {
+    padding: 0.8rem 0.5rem;
+    gap: 1rem;
+  }
+
+  main aside .social-media li a {
+    font-size: 1.1rem;
+  }
+
+  .side-profile-pic {
+    width: 35px;
+    height: 35px;
+  }
+
+  .bio-info {
+    font-size: 0.55rem;
+  }
+}
+
+/* ===== PROJECT SECTION ===== */
+
+.content5 {
+  padding-top: 120px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.myproject h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: lightblue;
+  font-weight: bold;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card {
+  width: 500px;
+  padding: 30px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  margin-bottom: 15px;
+}
+
+.project-card p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.project-card button {
+  padding: 10px 25px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.project-card button:hover {
+  background-color: lightskyblue;
+  color: black;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+  .project-card {
+    width: 90%;
+  }
+}
