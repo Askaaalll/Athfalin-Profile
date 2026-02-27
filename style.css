@@ -710,11 +710,7 @@ footer {
   background: linear-gradient(135deg, #00ffaa, #00a67e);
   box-shadow: 0 0 20px rgba(0,255,170,.3);
 }
-.cert-sub-icon-entrep {
-  background: linear-gradient(135deg, #f7df1e, #e6a817);
-  box-shadow: 0 0 20px rgba(247,223,30,.25);
-  color: #111 !important;
-}
+
 .cert-sub-header > div:nth-child(2) { flex: 1; }
 .cert-sub-title { font-family: var(--display); font-size: clamp(18px, 2.5vw, 24px); font-weight: 800; color: var(--text); margin-bottom: 4px; }
 .cert-sub-desc  { font-size: 13px; color: var(--text-muted); font-family: var(--mono); letter-spacing: .04em; }
@@ -726,13 +722,11 @@ footer {
   padding: 6px 16px; border-radius: 20px; text-transform: uppercase; white-space: nowrap;
 }
 .cert-count-seminar { color: var(--glow3); background: rgba(0,255,170,.08); border-color: rgba(0,255,170,.2); }
-.cert-count-entrep  { color: #f7df1e;      background: rgba(247,223,30,.08); border-color: rgba(247,223,30,.2); }
 
 /* Certificate grids */
 .cert-grid         { display: grid; gap: 20px; }
 .cert-grid-tech    { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .cert-grid-seminar { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
-.cert-grid-entrep  { grid-template-columns: minmax(220px, 360px); }
 
 .cert-item {
   background: var(--card); border: 1px solid var(--border);
